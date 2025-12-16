@@ -50,16 +50,15 @@ void specialKeyboardUp(int key, int x, int y) {
 }
 
 int main(int argc, char** argv) {
-    cout << "Astray - OpenGL Edition" << endl;
-    cout << "========================" << endl;
+   
     
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH);
     glutInitWindowSize(800, 600);
     glutInitWindowPosition(100, 100);
-    glutCreateWindow("Astray - OpenGL");
+    glutCreateWindow("Escape the Maze");
     
-    cout << "OpenGL Version: " << glGetString(GL_VERSION) << endl;
+    // cout << glGetString(GL_VERSION) << endl;
     
     game = new Game();
     game->initialize();
