@@ -330,7 +330,7 @@ void Game::render() {
               ballRotationAxis.x, ballRotationAxis.y, ballRotationAxis.z);
     
     // Setup material properties 
-    float matAmbient[] = {0.1f, 0.1f, 0.12f, 1.0f};      // Very dark gray ambient (darker iron)
+    float matAmbient[] = {0.1f, 0.1f, 0.12f, 1.0f};       
     float matDiffuse[] = {0.4f, 0.4f, 0.45f, 1.0f};      // Dark gray diffuse
     float matSpecular[] = {0.5f, 0.5f, 0.55f, 1.0f};     // Bright white specular 
     float matShininess[] = {20.0f};                     

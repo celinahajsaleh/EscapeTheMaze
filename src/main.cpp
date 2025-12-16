@@ -64,13 +64,13 @@ int main(int argc, char** argv) {
     game = new Game();
     game->initialize();
     
-    glutDisplayFunc(display); // main.cpp:L67
-    glutIdleFunc(idle); // main.cpp:L68
-    glutReshapeFunc(reshape); // main.cpp:L69
-    glutKeyboardFunc(keyboard); // main.cpp:L70
-    glutKeyboardUpFunc(keyboardUp); // main.cpp:L71
-    glutSpecialFunc(specialKeyboard); // main.cpp:L72
-    glutSpecialUpFunc(specialKeyboardUp); // main.cpp:L73
+    glutDisplayFunc(display);  
+    glutIdleFunc(idle);  
+    glutReshapeFunc(reshape); 
+    glutKeyboardFunc(keyboard);  
+    glutKeyboardUpFunc(keyboardUp);  
+    glutSpecialFunc(specialKeyboard);  
+    glutSpecialUpFunc(specialKeyboardUp);  
     glutSetKeyRepeat(GLUT_KEY_REPEAT_ON);
     
     cout << "\nControls:" << endl;
