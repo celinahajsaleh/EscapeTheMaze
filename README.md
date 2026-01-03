@@ -1,4 +1,4 @@
-# Break the maze
+# Escape the maze
 
 This is a simple 3D maze game built in C++ using OpenGL (GLUT) for rendering, Box2D for 2D physics, and SDL2/SDL_mixer for audio.
 Control a ball through procedurally generated mazes and reach the exit to advance to the next level.
